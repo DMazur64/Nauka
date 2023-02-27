@@ -12,7 +12,7 @@ class Pracownik:
 
 
 pracownik1 = Pracownik ("Adam", "Kowalski", 4000)
-pracownik2 = Pracownik ("Bartek", "Dąb", 7000)
+pracownik2 = Pracownik ("Bartek", "zzz", 7000)
 pracownik3 = Pracownik ("Piotr", "Malecki", 1000)
 
 pracownik1.say()
