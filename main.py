@@ -16,7 +16,7 @@ pracownik2 = Pracownik ("Bartek", "Dąb", 7000)
 pracownik3 = Pracownik ("Piotr", "Malecki", 1000)
 
 pracownik1.say()
-pracownik1.podwyzka(150)
+pracownik1.podwyzka(500)
 
 pracownik2.say()
 pracownik2.podwyzka(200)
