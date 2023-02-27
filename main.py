@@ -19,7 +19,7 @@ pracownik1.say()
 pracownik1.podwyzka(500)
 
 pracownik2.say()
-pracownik2.podwyzka(200)
+pracownik2.podwyzka(420)
 
 pracownik3.say()
 pracownik3.podwyzka(325)
