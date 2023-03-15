@@ -13,3 +13,15 @@ class Firma:
         for pracownik in self.pracownicy:
             sum += pracownik.zarobki
         return sum
+    def awansuj_pracownika (self,pracownik):
+        for pracownik in self.pracownicy:
+            if pracownik.firmy.imie == pracownik.imie and pracownik.firmy.nazwisko == pracownik.nazwisko
+                if pracownik.stanowisko == "Junior":
+                    pracownik.stanowisko = "Mid"
+
+                elif pracownik.stanowisko == "Mid":
+                    pracownik.stanowisko = "Senior"
+
+                elif pracownik.stanowisko == "Senior":
+                    pracownik.stanoiwsko = "Szef"
+                pracownik.zarobki += 500
